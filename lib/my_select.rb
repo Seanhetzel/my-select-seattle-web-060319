@@ -6,6 +6,7 @@ def my_select(collection)
     if yield collection[i]
     #moded_collection.push(yield collection[i])
       moded_collection.push(collection[i])
+    end
     i += 1
   end
   moded_collection
