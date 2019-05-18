@@ -5,4 +5,5 @@ def my_select(collection)
     if yield collection[i] == true 
       collection[i]
     end
+  end
 end
