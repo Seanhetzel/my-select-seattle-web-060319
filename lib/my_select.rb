@@ -6,7 +6,7 @@ def my_select(collection)
 #    if yield collection[i] == true 
 #      moded_collection.push(collection[i])
       i += 1
-    end
+    #end
   end
   moded_collection
 end
