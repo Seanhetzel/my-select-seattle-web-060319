@@ -7,4 +7,5 @@ def my_select(collection)
     i += 1
   end
   #moded_collection
+  collection
 end
