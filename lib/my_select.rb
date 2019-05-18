@@ -4,11 +4,9 @@ def my_select(collection)
   i = 0 
   while i < collection.length 
     if yield collection[i]
-    #moded_collection.push(yield collection[i])
       moded_collection.push(collection[i])
     end
     i += 1
   end
   moded_collection
-  #collection
 end
